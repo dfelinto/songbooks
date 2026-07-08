@@ -1,0 +1,43 @@
+ config {
+    title : "Disney English"
+    description : "Disney Ukulele in English"
+    type : style
+}
+
+ pdf {
+    papersize: "a5"
+    columnspace: 18
+
+    diagrams.show  : "right"
+
+    fonts {
+        title    : "Helvetica-Bold 14"
+        subtitle : "Helvetica 10"
+        text     : "Helvetica 9"
+        chord    : "Helvetica-Bold 9"
+        comment  : "Helvetica-Oblique 8"
+        toc      : "Helvetica 9"
+    }
+}
+// TODO get a cover
+# pdf.songbook.cover : false
+
+pdf.formats.title.subtitle : [
+    "",
+    "<i>%{subtitle|%{}|%{movie} (%{artist}%{lyricist| & %{}|})%{year| %{}|}}</i>",
+    ""
+]
+
+# For words that break in middle due to chords
+pdf.split-marker : [
+    "-",
+    "-",
+    "-"
+]
+// special markup: [<hidden>First note</hidden>]
+markup.shortcodes {
+    hidden: "color='white' size='1'"
+}
+// Uses custom song metadata field "firstline"
+metadata.strict : false
+//toc.line : "%{title}  —  %{firstline}  —  %{page}"
