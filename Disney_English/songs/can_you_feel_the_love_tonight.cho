@@ -1,0 +1,33 @@
+{title: Can You Feel the Love Tonight}
+{meta: movie The Lion King}
+{meta: artist Elton John}
+{meta: lyricist Tim Rice}
+{year: 1994}
+{meta: firstline There's a calm surrender}
+{define: "First note" base-fret 1 frets x x 0 x}
+
+{define: Em base-fret 1 frets 0 4 3 2}
+
+[<hidden>First note</hidden>]
+[C]There's a calm sur[G]render [C]to the rush of [G]day
+[C]When the heat of the [G]rolling world [Am]can be turned a[D]way
+[C]An enchanted [G]moment, [C]and it sees me [G]through
+[C]It's enough for this [Em]restless warrior [F]just to be with [D]you.
+
+{soc}
+And [G]can you [D]feel the lo[Em]ve tonight [C]? (Tonight)
+[G] It is where [C] [A7]we [D]are
+[C] It's [G]enough for this [Em]wide-eyed [C]wanderer
+[Am]That [G]we [C]got [A7]this far[D]
+And [G]can you [D]feel the lo[Em]ve tonight [C]? (Tonight)
+[G] How it's [C]laid [A7]to [D]rest?
+[C] It's [G]enough to make [Em]kings and [C]vagabonds
+Be[Am]lieve [G]the [C]very best [G]
+{eoc}
+
+[C]There's a time for [G]everyone [C]if they only [G]learn
+[C]That the twisting ka[G]leidoscope [Am]moves us all in [D]turn
+[C]There's a rhyme and [G]reason [C]to the wild [G]outdoors
+[C]When the heart of this [Em]star-crossed voyager [F]beats in time with [D]yours
+
+{c: Chorus}
