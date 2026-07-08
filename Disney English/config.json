@@ -42,38 +42,28 @@ markup.shortcodes {
 metadata.strict : false
 
 
-
 contents : [
     {
-        // The metadata for this toc. One or two items.
-        // This is used for sorting the ToC.
-    fields : [ movie
+    fields : [ title
         ]
-        // The label (title) for this toc.
-    label : "Musics by Movie"
+    label : "Musics A-Z"
         // Left-part
     line : "%{page}  <b>%{title}</b>  <i>%{firstline}</i>"
         // Right-part
     pageno : "<i>%{movie}</i>"
-        // Omit this toc.
     omit : false
-        // Template song for the toc.
     template : stdtoc
     },
     {
-        // The metadata for this toc. One or two items.
-        // This is used for sorting the ToC.
-    fields : [ title
+    fields : [ movie title
         ]
-        // The label (title) for this toc.
-    label : "Musics by Title"
+    break: "\\n%{movie}"
+    label : "Musics by Movie"
         // Left-part
-    line : "%{page}  <b>%{title}</b>  <i>%{firstline}</i>"
+    line : "<b>%{title}</b>  <i>%{firstline}</i>"
         // Right-part
-    pageno : "<i>%{movie}</i>"
-        // Omit this toc.
+    pageno : "<i>%{page}</i>"
     omit : false
-        // Template song for the toc.
     template : stdtoc
     }
 ]
