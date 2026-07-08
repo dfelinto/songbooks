@@ -66,10 +66,10 @@ contents : [
     {
     fields : [ movie title
         ]
-    break: "\\n%{movie}"
+    break: "\\n<u>%{movie}</u>"
     label : "Musics by Movie"
         // Left-part
-    line : "<b>%{title}</b>  <i>%{firstline}</i>"
+    line : "    <b>%{title}</b>  <i>%{firstline}</i>"
         // Right-part
     pageno : "<i>%{page}</i>"
     omit : false
