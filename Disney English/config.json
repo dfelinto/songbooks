@@ -42,11 +42,12 @@ markup.shortcodes {
 metadata.strict : false
 
 
+
 contents : [
     {
         // The metadata for this toc. One or two items.
         // This is used for sorting the ToC.
-    fields : [ title
+    fields : [ movie
         ]
         // The label (title) for this toc.
     label : "Musics A-Z"
