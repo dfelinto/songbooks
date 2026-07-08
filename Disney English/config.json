@@ -40,4 +40,23 @@ markup.shortcodes {
 }
 // Uses custom song metadata field "firstline"
 metadata.strict : false
-//toc.line : "%{title}  —  %{firstline}  —  %{page}"
+
+
+contents : [
+    {
+        // The metadata for this toc. One or two items.
+        // This is used for sorting the ToC.
+    fields : [ title
+        ]
+        // The label (title) for this toc.
+    label : "Musics A-Z"
+        // Left-part
+    line : "%{page}  <b>%{title}</b>  <i>%{firstline}</i>"
+        // Right-part
+    pageno : "<i>%{movie}</i>"
+        // Omit this toc.
+    omit : false
+        // Template song for the toc.
+    template : stdtoc
+    }
+]
