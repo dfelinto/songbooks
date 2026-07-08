@@ -18,6 +18,15 @@
         comment  : "Helvetica-Oblique 8"
         toc      : "Helvetica 9"
     }
+
+    songbook {
+        // dual-pages is good for printing
+        // but for the digital version it is better to skip to avoid
+        // blank pages
+        dual-pages: false
+        align-songs: false
+        align-tocs: false
+    }
 }
 // TODO get a cover
 # pdf.songbook.cover : false
