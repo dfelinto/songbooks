@@ -31,8 +31,8 @@ pdf.formats.title.subtitle : [
 # For words that break in middle due to chords
 pdf.split-marker : [
     "-",
-    "-",
-    "-"
+    "",
+    ""
 ]
 // special markup: [<hidden>First note</hidden>]
 markup.shortcodes {
