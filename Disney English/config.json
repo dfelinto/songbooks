@@ -24,7 +24,7 @@
 
 pdf.formats.title.subtitle : [
     "",
-    "<i>%{subtitle|%{}|%{movie} (%{artist}%{lyricist| & %{}|})%{year| %{}|}}</i>",
+    "<i>%{subtitle|%{}|%{movie} %{artist|(%{artist}%{lyricist| & %{}|})|}%{year| %{}|}}</i>",
     ""
 ]
 
