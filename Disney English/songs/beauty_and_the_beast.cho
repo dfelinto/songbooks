@@ -1,0 +1,42 @@
+{title: Beauty and the Beast}
+{meta: movie Beauty and the Beast}
+{meta: artist Alan Menken}
+{meta: lyricist Howard Ashman}
+{year: 1991}
+{meta: firstline Tale as old as time}
+{define: "First note" base-fret 1 frets x x x 0}
+
+{define: C7sus base-fret 1 frets 0 0 1 1}
+{define: Cadd9 base-fret 1 frets 0 2 0 3}
+{define: Eb base-fret 1 frets 0 3 3 1}
+{define: D7sus base-fret 1 frets 2 2 3 3}
+{define: Em base-fret 1 frets 0 4 3 2}
+{define: Fadd9 base-fret 1 frets 0 0 1 0}
+{define: Gadd9 base-fret 1 frets 2 2 3 2}
+{define: Bbadd9 base-fret 1 frets 3 2 1 3}
+
+[<hidden>First note</hidden>]
+[Fadd9]Tale as old as [C7sus]time, [C7] [Fadd9]true as it can [C7sus]be. [C7]
+[Fadd9]Barely even [Am]friends, then somebody [Bbadd9]bends
+Unexpected[C7sus]ly.
+
+[Fadd9]Just a little [C7sus]change [C7]. [Fadd9]Small to say the [Cm7]least.
+[F7]Both a little [Bbmaj7]scared, neither [Am]one pre[Gm7]pared.
+[C7sus]Beauty [C7]and the [Fadd9]beast.
+
+[C7sus]Ever just the [Am]same. [Bbadd9] Ever a sur[Am]prise.
+[Bbadd9]Ever as be[Am]fore, ever just as [Dm]sure
+[Dm7]As the Sun will [Eb]rise. [Fadd9]
+
+{comment: <sym circle-F /> → <sym circle-G />}
+[G]Tale as old as [D7sus]time. [D7] [Gadd9] Tune as old as [D7sus]song. [D7]
+[Gadd9]Bittersweet and [Bm]strange, finding you can [Cadd9]change,
+Learning you were wrong. [D7]
+
+[Gadd9] Certain as the [D7sus]sun [Gadd9]rising in the [Dm]east
+[G7]Tale as old as [Cmaj7]time, song as [Bm7]old as [Am]rhyme.
+Beauty [D7]and the [Gadd9]Beast.
+
+{comment: Outro}
+[Em] Tale as [Bm]old as [C]time, song as [Bm]old as [Am]rhyme.
+[D7sus]Beauty [D7]and the [Gadd9]Beast.
