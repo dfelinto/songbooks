@@ -1,0 +1,43 @@
+{title: Amigo Estou Aqui}
+{meta: title_ptBR: Amigo Estou Aqui}
+{meta: title_EN: You've Got a Friend in Me}
+{meta: movie Toy Story}
+{meta: artist Randy Newman}
+{meta: lyricist Zé da Viola}
+{year: 1995}
+{meta: firstline Amigo estou aqui}
+{define: "First note" base-fret 1 frets x x 0 x}
+
+{define: D7 base-fret 1 frets 2 0 2 0}
+{define: G7#5 base-fret 1 frets 0 3 1 2}
+{define: F#dim7 base-fret 1 frets 2 3 2 3}
+
+[<hidden>First note</hidden>]
+{:comment Verso 1}
+[C]Amigo [G7#5]estou [C7]aqui. [F] Amigo [F#dim7]estou [C]aqui.
+[F] Se a [C]fase, [E7] é ru[Am]im.
+E são [F]tantos [C]problemas que [E7]não tem [Am]fim
+[F] Não se es[C]queça que ou[E7]viu de [Am]mim
+[D7] Amigo es[G7]tou [C]aqui. [A7]
+[D7] Amigo es[G7]tou [C]aqui. [G]
+
+{:comment Verso 2}
+[C]Amigo [G7#5]estou [C7]aqui. [F] Amigo [F#dim7]estou [C]aqui.
+[F] Os seus pro[C]blemas [E7] são meus tam[Am]bém.
+[F] E isso eu [C] faço por vo[E7]cê e [Am]mais ninguém.
+[F] O que eu [C]quero é ver [E7]o seu [Am]bem
+[D7]Amigo es[G7]tou a[C]qui. [A7]
+[D7]Amigo es[G7]tou a[C]qui. [G]
+
+{:comment Bridge}
+[F] Os outros podem ser a[B]té bem melhores do que eu
+[C] Como os brinquedos são, porém
+[B] Amigo seu é coisa [Ddim7]séria
+Pois [Em]é op[A7]ção, do [Dm]cora[G7ção, viu.
+[C] O tempo [G7#5]vai pas[C7]sar, os [F]anos vão [F#dim7]confirmar
+[F] As três pa[F#dim7]lavras que [C]pro[E7]fe[Am]ri.
+
+{:comment Outro}
+[D7] Amigo es[G7]tou [C]aqui. [A7]
+[D7] Amigo es[G7]tou [C]aqui. [A7]
+[D7] Amigo es[G7]tou [C]aqui. [G7] [C]
