@@ -82,3 +82,32 @@ contents : [
     template : stdtoc
     }
 ]
+
+
+## Chords
+chords: [
+    {name: "C7sus4", base: 1, frets: [
+            0 0 1 1
+        ]
+    },
+    {name: "C#dim7", base: 1, frets: [
+            0 1 0 1
+        ]
+    },
+    {name: "Em", base: 1, frets: [
+            0 4 3 2
+        ]
+    },
+    {name: "F#7", base: 1, frets: [
+            3 4 2 4
+        ]
+    },
+    {name: "A7sus4", base: 1, frets: [
+            0 2 0 0
+        ]
+    },
+    {name: "A#dim7", base: 1, frets: [
+            0 1 0 1
+        ]
+    },
+]
