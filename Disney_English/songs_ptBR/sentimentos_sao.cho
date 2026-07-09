@@ -1,0 +1,44 @@
+{title: Sentimentos São}
+{meta: title_ptBR: Sentimentos São}
+{meta: title_EN: Beauty and the Beast}
+{meta: movie Beauty and the Beast}
+{meta: artist Alan Menken}
+{meta: lyricist Howard Ashman}
+{year: 1991}
+{meta: firstline Sentimentos são, fáceis de mudar}
+{define: "First note" base-fret 1 frets x x x 0}
+
+{define: C7sus base-fret 1 frets 0 0 1 1}
+{define: Cadd9 base-fret 1 frets 0 2 0 3}
+{define: Eb base-fret 1 frets 0 3 3 1}
+{define: D7sus base-fret 1 frets 2 2 3 3}
+{define: Em base-fret 1 frets 0 4 3 2}
+{define: Fadd9 base-fret 1 frets 0 0 1 0}
+{define: Gadd9 base-fret 1 frets 2 2 3 2}
+{define: Bbadd9 base-fret 1 frets 3 2 1 3}
+
+[<hidden>First note</hidden>]
+[Fadd9]Sentimentos [C7sus]são, [C7] [Fadd9]fáceis de mu[C7sus]dar. [C7]
+[Fadd9]Mesmo entre [Am]quem, não vê que al[Bbadd9]guém
+Pode ser [C7sus]seu par.
+
+[Fadd9]Basta um o[C7sus]lhar [C7]. [Fadd9]Que o outro não es[Cm7]pera.
+[F7]Para assus[Bbmaj7]tar e [Am]até pertur[Gm7]bar
+[C7sus]Mesmo a [C7]bela e a [Fadd9]fera.
+
+[C7sus]Sentimento as[Am]sim. [Bbadd9]Sempre é uma sur[Am]presa.
+[Bbadd9]Quando ele [Am]vem, nada o de[Dm]tém
+[Dm7]É uma chama a[Eb]cesa. [Fadd9]
+
+{comment: <sym circle-F /> → <sym circle-G />}
+[G]Sentimentos [D7sus]vêm. [D7] [Gadd9] Para nos tra[D7sus]zer. [D7]
+[Gadd9]Novas sensa[Bm]ções, doces emo[Cadd9]ções,
+E um novo prazer. [D7]
+
+[Gadd9] E numa esta[D7sus]ção, [Gadd9] como a prima[Dm]vera
+[G7]Sentimentos [Cmaj7]são, como u[Bm7]ma can[Am]ção
+Para a [D7]bela e a [Gadd9]fera
+
+{comment: Outro}
+[Em]Senti[Bm]mentos [C]são, como u[Bm]ma can[Am]ção
+[D7sus]Para a [D7]bela e a [Gadd9]fera
