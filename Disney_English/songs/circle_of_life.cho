@@ -1,0 +1,54 @@
+{title: Circle of Life}
+{meta: movie The Lion King}
+{meta: artist Elton John}
+{meta: lyricist Tim Rice}
+{year: 1994}
+{meta: firstline From the day we arrive on the planet}
+{define: "First note" base-fret 1 frets x x x 2}
+
+{define: D7 base-fret 1 frets 2 0 2 0}
+{define: Dsus base-fret 1 frets 0 2 3 0}
+{define: Ebadd2 base-fret 1 frets 0 3 1 1}
+
+From the [G]day we arrive on the plan[Am]et
+And, [D7]blinking, step into the [G]sun
+[Em]There's more to see than can [Am]ever be seen,
+More to do [F] than can [Am]ever be done [D]
+
+[G] Some say: "eat or be ea[Am]ten"
+Some say: [D7] "live and let live" [G]
+But [Em]all are agreed as they [Am]join the stampede
+You should [F]never take more than you give [D]
+
+{start_of_chorus}
+In the circle of life [G]
+[G] It's the wheel of for[F]tune
+It's the leap of [C]faith
+It's the band of hope [D]
+Till we find our [G]place
+[E7] On the path un[Am]winding
+[Ebadd2] In the [G]circle, [D] the circle of life [C]
+{end_of_chorus}
+
+[G]Some of us fall by the way[Am]side
+And [D7]some of us soar to the stars [G]
+And [Em]some of us sail through our [Am]troubles
+And some [F] have to live with the scars [D]
+There's [G]far too much to take in [Am]here
+More to [D7]find than can ever be found [G]
+But the [Em7]sun rolling high through the [Am]sapphire sky
+Keeps great and [F]small on the endless round [D]
+
+{start_of_chorus}
+In the circle of life [G]
+[G] It's the wheel of for[F]tune
+It's the leap of [C]faith
+It's the band of hope [D]
+Till we find our [G]place
+[E7] On the path un[Am]winding
+[Ebadd2] In the [G]circle, [D] the circle of life [C]
+{end_of_chorus}
+
+{comment Outro}
+[E7] On the path unwind[Am]ing
+[Ebadd2] In the [G]circle, [Dsus] the [D]circle of life [C] [Eb] [G]
