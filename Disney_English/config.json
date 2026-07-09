@@ -36,6 +36,12 @@ pdf.formats.title.subtitle : [
     "<i>%{subtitle|%{}|%{movie} %{artist|(%{artist}%{lyricist| & %{}|})|}%{year| %{}|}}</i>",
     ""
 ]
+// footer for when the song takes more than 1 page
+pdf.formats.default.footer : [
+    "%{title} %{movie|- <i>%{movie}</i>|}",
+    "",
+    "%{page}"
+]
 
 # For words that break in middle due to chords
 pdf.split-marker : [
