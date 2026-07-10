@@ -1,51 +1,48 @@
 {title: Once Upon a Dream}
 {meta: movie Sleeping Beauty}
-{meta: artist Tchaikovsky (adapted by George Bruns)}
-{meta: lyricist Jack Lawrence & Sammy Fain}
+{meta: artist Tchaikovsky / Bruns}
+{meta: lyricist Lawrence / Fain}
 {year: 1959}
 {meta: firstline I know you, I walked with you once upon a dream}
-// TODO {define: "First note" base-fret 1 frets x x 2 x}
+{define: "First note" base-fret 1 frets x x x 0}
 
-{:comment The song's melody is based on the "Grande valse villageoise" (nicknamed "The Garland Waltz"), from the 1890 ballet The Sleeping Beauty by Pyotr Ilyich Tchaikovsky.}
+# {:comment The song's melody is based on the "Grande valse villageoise" (nicknamed "The Garland Waltz"), from the 1890 ballet The Sleeping Beauty by Pyotr Ilyich Tchaikovsky.}
 
 [<hidden>First note</hidden>]
 {:comment Princess Aurora}
-[F]I [Am]know [F]you, I walked with you,
-[C7]Once u[D7]pon a [C7]dream.
+[F]I [Am]know [F]you, I walked with
+You [C7]once u[D7]pon a [C7]dream.
 [C]I [G]know [C7]you, the gleam in your [Gm]eyes
-is [C7]so [C]familiar a gleam.
+is [C7]so [C]familiar a [F]gleam.
 
-Yet [F]I [Am]know it's [F]true, that visions are
-[C7]seldom [D7]all they [Gm]seem
+Yet I [Am]know it's [F]true, that visions are
+[C7]seldom [D7]all they [Gm]seem.
 
 But if [F]I know [D]you,
 I [Gm]know what you'll [E7]do.
 You'll [F]love me at [F#dim]once
-The [D]way you did
-[Gm]once [Bb]upon [C]a [F]dream
+The [D]way you did [Gm]once
+u[Bb]pon [C]a [F]dream
 
-{:comment vocalizing}
+{:comment Vocalizing}
 But if [F]I know [D]you
 I [Gm]know what you'll [E7]do
 You'll [F]love me at [F#dim]once
 
 {:comment Princess Aurora and Prince}
-The [D]way you did
-[Gm]once [Bb]upon [C]a [F]dream
+The [D]way you did [Gm]once,
+[Bb]upon [C]a [F]dream.
 
 {:comment Prince}
 [F]I [Am]know [F]you, I walked with you
 [C7]once u[D7]pon a [C7]dream
 [C]I [G]know [C7]you, the gleam in your [Gm]eyes
-is [C7]so [C]familiar a gleam
+Is [C7]so [C]familiar a [F]gleam.
 
 {start_of_chorus}
-And [F]I [Am]know it's [F]true
-That visions are
-[C7]seldom [D7]all they [Gm]seem
-But if [F]I know [D]you
-I [Gm]know what you'll [E7]do
+And I [Am]know [F]it's true, that visions are
+[C7]Seldom [D7]all they [Gm]seem.
+But if [F]I know [D]you, I [Gm]know what you'll [E7]do
 You'll [F]love me at [F#dim]once
-The [D]way I did
-[Gm]once [Bb]upon [C]a [F]dream
+The [D]way I did [Gm]once u[Bb]pon [C]a [F]dream
 {end_of_chorus}
