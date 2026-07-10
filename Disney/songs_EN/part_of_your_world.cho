@@ -2,7 +2,7 @@
 {meta: artist Jodi Benson}
 {year: 1989}
 
-{define: "First note" base-fret 1 frets x x 1 x}
+{define: "First note" base-fret 1 frets x 0 x x}
 {meta: firstline Maybe he's right}
 {meta: movie The Little Mermaid}
 
