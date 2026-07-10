@@ -102,6 +102,10 @@ chords: [
             3 4 2 4
         ]
     },
+    {name: "F#dim", base: 1, frets: [
+            2 0 2 0
+        ]
+    },
     {name: "A7sus4", base: 1, frets: [
             0 2 0 0
         ]
