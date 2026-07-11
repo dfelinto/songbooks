@@ -1,0 +1,64 @@
+{title I Won’t Say I’m In Love}
+{meta: artist Alan Menken}
+{meta: lyricist David Zippel}
+{year: 1997}
+{define: "First note" base-fret 1 frets x x 0 x}
+{meta: firstline If there's a prize for rotten judgement}
+{meta: movie Hercules}
+
+{define: G4 base-fret 1 frets 0 2 3 3}
+{define: G9 base-fret 1 frets 0 2 3 0}
+
+[<hidden>First note</hidden>]
+{:comment Verse 1}
+[C] If there's a prize for rot[F]ten judgement
+[G] I guess I've already [F]won that
+[Am] No man is worth the aggra[Dm]vation
+[G] That's ancient history, [G4]been [G]there, [G9]done [G]that
+
+{:comment Verse 2}
+[C]Who'd you think you're kidding?
+[F]He's the Earth and heaven to you,
+[C]Try to keep it hidden,
+[F]Honey, we can see right through you
+[F]Girl, you can't conceal it
+[Em]We know how you feel and [Dm] who you're thinking [G]of.
+
+{start_of_chorus}
+[C]No chance, no way, I won't say it, no, [Am]no
+[Am]You swoon, you sigh why deny it? Oh-[F]oh
+[F]It's too cli[G]ché, I won't say I'm in [C]love
+{end_of_chorus}
+
+{:comment Verse 3}
+[C] I thought my heart had learned its [F]lesson
+[Em]It feels so good when you [G]start out
+[Am]My head is screaming, "Get a [Dm]grip, girl!"
+[G]Unless you're dying to cry your heart out
+
+{:comment Verse 4}
+[C]You keep on denying
+[F]Who you are and how you're feeling
+[C]Baby, we're not buying
+Hon, we saw you [F]hit the ceiling 
+[F]Face it like a grown-up
+[Em]When you gonna own up that you [Dm]got, got, got it [G]bad?
+
+{start_of_chorus}
+[C]No chance, no way, I won't say it, no, [Am]no
+[Am]Give up, give in, check the grin, you're in [F]love
+[F]This scene won't play, I won't say I'm in [Am]love
+[G](you're doing flips, read our lips, you're in [Am]love)
+
+[C] You're way off base, I won't say it (she won't say it, [Am]no)
+[Am]Get off my case, I won't say [F]it!
+[F]Girl, don't [G]be proud
+It's okay, you're in [C]love
+{end_of_chorus}
+
+
+{Outro}
+[C]Ooohhh... [Am]
+[F]At least out [G]loud
+I won't say I'm in [C]love
+Sha-la-la-la-la-la, ah (sigh)
