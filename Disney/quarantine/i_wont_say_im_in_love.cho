@@ -6,13 +6,14 @@
 {meta: firstline If there's a prize for rotten judgement}
 {meta: movie Hercules}
 
+{define: G9 base-fret 1 frets 0 0 1 0}
 {define: G4 base-fret 1 frets 0 2 3 3}
 {define: G9 base-fret 1 frets 0 2 3 0}
 
 [<hidden>First note</hidden>]
 {:comment Verse 1}
-[C] If there's a prize for rot[F]ten judgement
-[G] I guess I've already [F]won that
+[C] If there's a prize for rot[F9]ten judgement
+[G] I guess I've already [F]won [G7]that
 [Am] No man is worth the aggra[Dm]vation
 [G] That's ancient history, [G4]been [G]there, [G9]done [G]that
 
