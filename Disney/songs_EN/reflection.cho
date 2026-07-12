@@ -1,0 +1,42 @@
+{title: Reflection}
+{meta: artist Matthew Wilder & David Zippel}
+{year: 1998}
+{key: A}
+{define: "First note" base-fret 1 frets x x x 1}
+{meta: firstline Look at me, you may think you see}
+{meta: movie Mulan}
+
+{define: F# base-fret 1 frets 3 1 2 1}
+{define: F#m base-fret 1 frets 2 1 2 0}
+{define: D#m base-fret 1 frets 3 3 2 1}
+{define: D* base-fret 2 frets 1 1 1 4 fingers 1 1 1 4}
+{define: D7M base-fret 1 frets 2 2 2 4 fingers 1 1 1 3}
+{define: D6 base-fret 1 frets 2 2 2 2 fingers 1 1 1 3}
+{define: G#m base-fret 1 frets 1 3 4 2}
+{define: C# base-fret 1 frets 1 1 1 4}
+{define: A* base-fret 1 frets 2 1 0 4}
+
+[<hidden>First note</hidden>]
+
+{comment: Verse 1}
+[F#]Look at me
+I will [D#m]never pass for a [G#m]perfect bride
+[F#]Or a perfect [C#]daughter
+[F#]Can it be I'm not [D#m]meant to play this [E]part?
+[A]Now I see, that if [F#m]I were truly to [Bm]be myself
+[Dm]I would break my family's [A]heart
+
+{start_of_chorus}
+[A]Who is that [F#m]girl I see
+[E]Staring [D]straight [Dm]back at me?
+[A]Why [E]is [F#m]my [Bm]re[D7M]flection
+Someone [G]I don't [E]know? 
+{end_of_chorus}
+
+{comment: Verse 2}
+[A]Somehow I [F#m]cannot hide
+[E]Who I am, [D]though I've [Dm]tried
+[A]When [E]will [F#m]my [Bm]re[D7M]flec[D*]tion [D6]show
+[Dm]Who I am [A*]inside?
+[A]When [E]will [F#m]my [Bm]re[D7M]flec[D*]tion [D6]show
+[Dm]Who I am [D]inside? [A]
