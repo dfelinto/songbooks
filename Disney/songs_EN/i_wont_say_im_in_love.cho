@@ -6,7 +6,7 @@
 {meta: firstline If there's a prize for rotten judgement}
 {meta: movie Hercules}
 
-{define: G9 base-fret 1 frets 0 0 1 0}
+{define: F9 base-fret 1 frets 0 0 1 0}
 {define: G4 base-fret 1 frets 0 2 3 3}
 {define: G9 base-fret 1 frets 0 2 3 0}
 
@@ -41,7 +41,7 @@
 [C]You keep on denying
 [F]Who you are and how you're feeling
 [C]Baby, we're not buying
-Hon, we saw you [F]hit the ceiling 
+[F]Hon, we saw you hit the ceiling
 [F]Face it like a grown-up
 [Em]When you gonna own up that you [Dm]got, got, got it [G]bad?
 
