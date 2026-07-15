@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!python3
 """
 cifraclub2cho.py
 
@@ -330,16 +330,24 @@ def process_ug_content(content: str) -> list:
 
 
 def is_bracket_chord_line(line: str) -> bool:
-    """True if every token on the line is a bracketed chord, e.g. '[F]  [G]'."""
+    """
+    True if the line is made up of bracketed chords, e.g. '[F]  [G]' --
+    optionally with '-' style filler tokens some UG submissions use to
+    mark "hold this chord" between hits, e.g. '[Bb] -       [Bb9]'.
+    """
     stripped = line.strip()
     if not stripped:
         return False
     tokens = stripped.split()
+    has_chord = False
     for tok in tokens:
+        if re.match(r"^[-–—]+$", tok):
+            continue
         m = re.match(r"^\[([^\[\]]+)\]$", tok)
         if not m or not CHORD_TOKEN_RE.match(m.group(1)):
             return False
-    return True
+        has_chord = True
+    return has_chord
 
 
 def merge_bracket_chord_line(chord_line: str, lyric_line: str) -> str:
