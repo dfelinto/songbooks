@@ -1,0 +1,62 @@
+{title: Colors of The Wind}
+{artist: Alan Menken}
+{lyricist: Stephen Schwartz}
+{year: 1995}
+{define: "First note" base-fret 1 frets x x 3 x}
+{meta: firstline You think you own whatever land you land on}
+{meta: movie Pocahontas}
+
+[<hidden>First note</hidden>]
+{comment: Verse 1}
+You [C]think you own whatever land you [Am]land on
+the [C]earth is just a dead thing can [Em]claim
+but [Am]I know every rock and tree and [F]creature
+has a [Dm]life, has a [G]spirit, has a [Am]name. 
+
+
+{comment: Verse 2}
+You [C]think the only people who are [Am]people
+are the [C]people who look and think like [Em]you
+but [Am]if you walk the footsteps of a [F]stranger
+you'll learn [Dm]things you never [G7]knew you never [C]knew.
+ 
+
+{start_of_chorus}
+[Em]Have you [Am]ever heard the wolf cry to the [Em]blue corn [F]moon
+Or [Am]asked the grinning bobcat why he [Em]grinned?
+Can you [F]sing with all the voices of the [C]mountain?
+Can you [Dm]paint with all the [G]colors of the [Am]wind?
+Can you [F]paint with all the [G7]colors of the [C]wind?
+{end_of_chorus} 
+
+
+{comment: Verse 3}
+Come [C]run the hidden pine trails of the [Am]forest
+Come [C]taste the sunsweet berries of the [Em]earth
+Come [Am]roll in all the riches all a[F]round you
+And for [Dm]once never [G]wonder what they're [Am]worth.
+
+
+{comment: Verse 4}
+The [C]rainstorm and the river are my [Am]brothers
+The [C]heron and the otter are my [Em]friends
+And [Am]we are all connected to each [F]other
+In a [Dm]circle in a [G7]hoop that never [C]ends.
+ 
+
+{comment: Bridge} 
+[C]How [F]high does the [Em]sycamore [Am]grow?
+If you [F]cut it down then you'll [G]never know.
+
+
+{comment: Outro}
+{start_of_chorus}
+And you'll [Am]never hear the wolf cry to the [Em]blue corn [F]moon
+For [Am]whether we are white or copper [Em]skinned,
+We need to [F]sing with all the voices of the [C]mountain, [Am]
+We need to [F]paint with all the colors of the [Am]wind.
+
+You can [F]own the Earth and [G]still
+All you'll [Em]own is earth un[F]til
+You can [Am]paint with all the [F]colors [G7]of the [C]wind.
+{end_of_chorus}
