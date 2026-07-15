@@ -223,14 +223,14 @@ def chordify(raw_text: str) -> list:
 def to_chordpro(meta: dict, body_lines: list) -> str:
     header = []
     if meta.get("title"):
-        header.append(f"{{title {meta['title']}}}")
+        header.append(f"{{title: {meta['title']}}}")
     if meta.get("artist"):
-        header.append(f"{{meta: artist {meta['artist']}}}")
+        header.append(f"{{artist: {meta['artist']}}}")
     if meta.get("composer"):
-        header.append(f"{{meta: composer {meta['composer']}}}")
-    header.append(f"{{year: {meta['year']}}}" if meta.get("year") else "{year ????}")
+        header.append(f"{{composer: {meta['composer']}}}")
+    header.append(f"{{year: {meta['year']}}}" if meta.get("year") else "{year: ????}")
     if meta.get("key"):
-        header.append(f"{{Key: {meta['key']}}}")
+        header.append(f"{{key: {meta['key']}}}")
     header.append('{define: "First note" base-fret 1 frets x x x x}')
     if meta.get("firstline"):
         header.append(f"{{meta: firstline {meta['firstline']}}}")
