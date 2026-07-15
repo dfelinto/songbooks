@@ -1,5 +1,5 @@
 {title: Part of Your World}
-{meta: artist Jodi Benson}
+{artist: Jodi Benson}
 {year: 1989}
 
 {define: "First note" base-fret 1 frets x 0 x x}

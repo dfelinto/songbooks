@@ -2,8 +2,8 @@
 {meta: title_ptBR: Amigo Estou Aqui}
 {meta: title_EN: You've Got a Friend in Me}
 {meta: movie Toy Story}
-{meta: artist Randy Newman}
-{meta: lyricist Zé da Viola}
+{artist: Randy Newman}
+{lyricist: Zé da Viola}
 {year: 1995}
 {meta: firstline Amigo estou aqui}
 {define: "First note" base-fret 1 frets x x 0 x}

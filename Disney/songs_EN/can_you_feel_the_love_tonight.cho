@@ -1,7 +1,7 @@
 {title: Can You Feel the Love Tonight}
 {meta: movie The Lion King}
-{meta: artist Elton John}
-{meta: lyricist Tim Rice}
+{artist: Elton John}
+{lyricist: Tim Rice}
 {year: 1994}
 {meta: firstline There's a calm surrender}
 {define: "First note" base-fret 1 frets x x 0 x}

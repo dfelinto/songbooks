@@ -1,7 +1,7 @@
 {title: Go the Distance}
 # {subtitle: from Hercules}
-{meta: artist Alan Menken}
-{meta: lyricist David Zippel}
+{artist: Alan Menken}
+{lyricist: David Zippel}
 {year: 1997}
 {key: F}
 {define: "First note" base-fret 1 frets x 0 x x}

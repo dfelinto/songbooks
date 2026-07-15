@@ -2,8 +2,8 @@
 {meta: title_ptBR: Sentimentos São}
 {meta: title_EN: Beauty and the Beast}
 {meta: movie Beauty and the Beast}
-{meta: artist Alan Menken}
-{meta: lyricist Telmo de Avelar}
+{artist: Alan Menken}
+{lyricist: Telmo de Avelar}
 {year: 1991}
 {meta: firstline Sentimentos são, fáceis de mudar}
 {define: "First note" base-fret 1 frets x x x 0}

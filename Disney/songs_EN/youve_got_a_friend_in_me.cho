@@ -1,6 +1,6 @@
 {title: You've Got a Friend in Me}
 {meta: movie Toy Story}
-{meta: artist Randy Newman}
+{artist: Randy Newman}
 {year: 1995}
 {meta: firstline You've got a friend in me}
 {define: "First note" base-fret 1 frets x x 0 x}

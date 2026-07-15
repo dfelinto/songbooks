@@ -1,7 +1,7 @@
 {title: Once Upon a Dream}
 {meta: movie Sleeping Beauty}
-{meta: artist Tchaikovsky / Bruns}
-{meta: lyricist Lawrence / Fain}
+{artist: Tchaikovsky / Bruns}
+{lyricist: Lawrence / Fain}
 {year: 1959}
 {meta: firstline I know you, I walked with you once upon a dream}
 {define: "First note" base-fret 1 frets x x x 0}

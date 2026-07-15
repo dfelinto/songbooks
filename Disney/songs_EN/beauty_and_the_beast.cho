@@ -1,7 +1,7 @@
 {title: Beauty and the Beast}
 {meta: movie Beauty and the Beast}
-{meta: artist Alan Menken}
-{meta: lyricist Howard Ashman}
+{artist: Alan Menken}
+{lyricist: Howard Ashman}
 {year: 1991}
 {meta: firstline Tale as old as time}
 {define: "First note" base-fret 1 frets x x x 0}
