@@ -6,7 +6,7 @@
 {meta: firstline Maybe he's right}
 {meta: movie The Little Mermaid}
 
-{define: D7 base-fret 1 frets 0 2 0 2}
+{define: D7 base-fret 1 frets 2 0 2 0}
 {define: D7sus4 base-fret 1 frets 0 0 2 2}
 
 [<hidden>First note</hidden>][F]Look at this stuff. [G]Isn't it neat?
@@ -55,9 +55,8 @@ I'm [C]ready to know what the [Em]people know
 [F]Burn? [G]
 
 {start_of_chorus}
-When's it my [C]turn?
-Wouldn't I [Em]love, love to ex[F]plore that shore up a[Dm]bove?
-Out of the [C]sea
-Wish I could [G]be
+When's it my [C]turn? Wouldn't I [Em]love,
+Love to ex[F]plore that shore up a[Dm]bove?
+Out of the [C]sea, wish I could [G]be
 Part of that [C]world
 {end_of_chorus}
