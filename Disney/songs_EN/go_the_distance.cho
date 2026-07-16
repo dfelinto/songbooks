@@ -18,13 +18,27 @@ And a [F]voice [E7]keeps [Am]saying, "This is [F]where I'm meant to [G]be"
 I will [C]find my [F]way. [C]I can go the [G]distance.
 I'll be [C]there some[F]day, [C]if I can be [G]strong
 I know [C]every [F]mile will be [Am]worth my [Dm]while
-I would [F]go [G]most [C]any[Am]where to [F]feel like [G]I belong [C].
+I would [F]go [G]most [C]any[Am]where to [F]feel like [G]I belong [C]
 {end_of_chorus}
 
 
+
+{comment: Instrumental}
+{start_of_abc}
+X:1
+M:4/4
+L:1/4
+K:C
+%%scale 0.575
+"C"c3 "G"z "F"z "G"g | "Am"c "G"d "C"e "G7"f/2e/4f/4 ||
+w:long.  * * * * * I am
+{end_of_abc}
+
+
+
 {start_of_chorus}
-[G7] I am [C]on my [F]way. [C]I can go the [G]distance.
+ I am [C]on my [F]way. [C]I can go the [G]distance.
 I don't [C]care how[F]far, [C]somehow I'be [G]strong.
 I know [C]every [F]mile will be [Am]worth my [Dm]while.
-I would [F]go [G]most [C]any[Am]where to [F]find where [G]I belong [C].
+I would [F]go [G]most [C]any[Am]where to [F]find where [G]I belong. [C]
 {end_of_chorus}
