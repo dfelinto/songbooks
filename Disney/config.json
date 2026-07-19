@@ -9,6 +9,8 @@
     columnspace: 18
 
     diagrams.show  : "right"
+    diagrams.barstyle : "arc"
+    diagrams.fingers : "bar_only"
 
     fonts {
         title    : "Helvetica-Bold 14"
