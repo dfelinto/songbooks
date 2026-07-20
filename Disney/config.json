@@ -10,7 +10,7 @@
 
     diagrams.show  : "right"
     diagrams.barstyle : "arc"
-    diagrams.fingers : "bar_only"
+    diagrams.fingers : false
 
     fonts {
         title    : "Helvetica-Bold 14"
