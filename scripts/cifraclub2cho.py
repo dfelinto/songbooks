@@ -476,7 +476,7 @@ def main():
     if args.output:
         out_path = Path(args.output)
     else:
-        safe_title = re.sub(r"[^\w\-]+", "_", meta.get("title") or "song").strip("_")
+        safe_title = re.sub(r"[^\w\-]+", "_", meta.get("title") or "song").strip("_").lower()
         out_path = Path(f"{safe_title}.cho")
 
     out_path.write_text(chordpro, encoding="utf-8")
