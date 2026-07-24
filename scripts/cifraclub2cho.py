@@ -235,6 +235,8 @@ def to_chordpro(meta: dict, body_lines: list) -> str:
     if meta.get("firstline"):
         header.append(f"{{meta: firstline {meta['firstline']}}}")
 
+    header.append("{meta: movie ????}")
+
     lead_in = ["", "", "[<hidden>First note</hidden>]", ""]
 
     return "\n".join(header + lead_in + body_lines).rstrip() + "\n"
