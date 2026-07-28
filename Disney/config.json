@@ -85,5 +85,7 @@ contents : [
     }
 ]
 
-include : [ chords_ukulele.json
+include : [
+    ukulele,
+    chords_ukulele.json
 ]
