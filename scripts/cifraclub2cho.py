@@ -231,7 +231,7 @@ def to_chordpro(meta: dict, body_lines: list) -> str:
     header.append(f"{{year: {meta['year']}}}" if meta.get("year") else "{year: ????}")
     if meta.get("key"):
         header.append(f"{{key: {meta['key']}}}")
-    header.append('{define: "First note" base-fret 1 frets x x x x}')
+    header.append('{define: "First note" copy "????"}')
     if meta.get("firstline"):
         header.append(f"{{meta: firstline {meta['firstline']}}}")
 
