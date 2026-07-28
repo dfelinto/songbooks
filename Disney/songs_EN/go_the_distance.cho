@@ -4,10 +4,9 @@
 {lyricist: David Zippel}
 {year: 1997}
 {key: F}
-{define: "First note" base-fret 1 frets x 0 x x}
 {meta: firstline I have often dreamed of a far-off place}
 {meta: movie Hercules}
-
+{define: "First note" copy "c"}
 
 [<hidden>First note</hidden>]
 I have [F]of[G]ten [C]dreamed of a [F]far-[G]off [C]place

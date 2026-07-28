@@ -2,9 +2,9 @@
 {artist: Matthew Wilder & David Zippel}
 {year: 1998}
 {key: A}
-{define: "First note" base-fret 1 frets x x x 1}
 {meta: firstline Look at me, you may think you see}
 {meta: movie Mulan}
+{define: "First note" copy "bb"}
 
 {define: F# base-fret 1 frets 3 1 2 1}
 {define: F#m base-fret 1 frets 2 1 2 0}

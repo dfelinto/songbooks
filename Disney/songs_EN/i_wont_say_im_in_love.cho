@@ -2,9 +2,9 @@
 {artist: Alan Menken}
 {lyricist: David Zippel}
 {year: 1997}
-{define: "First note" base-fret 1 frets x x 0 x}
 {meta: firstline If there's a prize for rotten judgement}
 {meta: movie Hercules}
+{define: "First note" copy "e"}
 
 {define: F9 base-fret 1 frets 0 0 1 0}
 {define: G4 base-fret 1 frets 0 2 3 3}

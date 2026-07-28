@@ -4,7 +4,7 @@
 {lyricist: Howard Ashman}
 {year: 1991}
 {meta: firstline Tale as old as time}
-{define: "First note" base-fret 1 frets x x x 0}
+{define: "First note" copy "a"}
 
 {define: C7sus base-fret 1 frets 0 0 1 1}
 {define: Cadd9 base-fret 1 frets 0 2 0 3}

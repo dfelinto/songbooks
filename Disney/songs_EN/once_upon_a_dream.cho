@@ -4,7 +4,7 @@
 {lyricist: Lawrence / Fain}
 {year: 1959}
 {meta: firstline I know you, I walked with you once upon a dream}
-{define: "First note" base-fret 1 frets x x x 0}
+{define: "First note" copy "a"}
 
 # {:comment The song's melody is based on the "Grande valse villageoise" (nicknamed "The Garland Waltz"), from the 1890 ballet The Sleeping Beauty by Pyotr Ilyich Tchaikovsky.}
 

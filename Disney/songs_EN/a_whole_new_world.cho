@@ -4,7 +4,7 @@
 {lyricist: Tim Rice}
 {year: 1992}
 {meta: firstline I can show you the world}
-{define: "First note" base-fret 1 frets x x 2 x}
+{define: "First note" copy "d"}
 
 [<hidden>First note</hidden>]
 [D]I can show you the world,

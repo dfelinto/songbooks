@@ -2,9 +2,9 @@
 {artist: Alan Menken}
 {lyricist: Stephen Schwartz}
 {year: 1995}
-{define: "First note" base-fret 1 frets x x 3 x}
 {meta: firstline You think you own whatever land you land on}
 {meta: movie Pocahontas}
+{define: "First note" copy "g"}
 
 [<hidden>First note</hidden>]
 {comment: Verse 1}

@@ -4,7 +4,7 @@
 {lyricist: Tim Rice}
 {year: 1994}
 {meta: firstline From the day we arrive on the planet}
-{define: "First note" base-fret 1 frets x x x 2}
+{define: "First note" copy "b"}
 
 {define: D7 base-fret 1 frets 2 0 2 0}
 {define: Dsus base-fret 1 frets 0 2 3 0}

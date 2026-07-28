@@ -1,4 +1,34 @@
 chords: [
+    // Initial note
+    {name: "c", base: 1, frets: [
+            x 0 x x
+        ]
+    },
+    {name: "d", base: 1, frets: [
+            x x 2 x
+        ]
+    },
+    {name: "e", base: 1, frets: [
+            x x 0 x
+        ]
+    },
+    {name: "g", base: 1, frets: [
+            x x 3 x
+        ]
+    },
+    {name: "a", base: 1, frets: [
+            x x x 0
+        ]
+    },
+    {name: "bb", base: 1, frets: [
+            x x x 1
+        ]
+    },
+    {name: "b", base: 1, frets: [
+            x x x 2
+        ]
+    },
+    // Chords
     {name: "C7sus4", base: 1, frets: [
             0 0 1 1
         ]

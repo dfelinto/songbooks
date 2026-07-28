@@ -1,9 +1,9 @@
 {title Cruella De Vil}
 {artist: Mel Level}
 {year: 1961}
-{define: "First note" base-fret 1 frets x x x 1}
 {meta: firstline Cruella De Vil, Cruella De Vil}
 {meta: movie 101 Dalmatians}
+{define: "First note" copy "bb"}
 
 {define: F7 base-fret 1 frets 2 3 1 3}
 
