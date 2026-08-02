@@ -20,6 +20,11 @@ TARGETS = [
         "config": "Disney/config.json",
         "output": "Disney.pdf",
     },
+    {
+        "description": "Ukulele on the Web",
+        "config": "Disney/config.json",
+        "output": "Disney.html",
+    },
 ]
 
 
@@ -42,7 +47,11 @@ def get_all_files():
         songs_dir = get_filepath_from_root(songs)
 
         for (dirpath, dirnames, filenames) in os.walk(songs_dir):
-            files.extend(filename for filename in filenames if filename.endswith(".cho"))
+            for filename in filenames:
+                if not filename.endswith(".cho"):
+                    continue
+                filepath = os.path.join(dirpath, filename)
+                files.append(filepath)
     return files
 
 
@@ -52,6 +61,7 @@ def main():
     import tempfile
     with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8") as tmp:
         tmp.write("\n".join(files))
+        tmp.flush()
 
         for target in TARGETS:
             config = get_filepath_from_root(target["config"])
@@ -71,7 +81,6 @@ def main():
 
             except subprocess.CalledProcessError as e:
                 print("Error: Problem creating {} ({})".format(output, target["description"]))
-
 
 
 if __name__ == "__main__":
