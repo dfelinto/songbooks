@@ -49,6 +49,10 @@ chords: [
             2 0 2 0
         ]
     },
+    {name: "F#m", base: 1, frets: [
+            2 1 2 0
+        ]
+    },
     {name: "A7sus4", base: 1, frets: [
             0 2 0 0
         ]
