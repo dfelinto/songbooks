@@ -2,6 +2,7 @@
 
 import os
 import subprocess
+import time
 
 # perl ~/src/tools/chordpro/script/chordpro --config Disney/config.json --filelist songs.txt --output
 
@@ -13,33 +14,34 @@ SUBTITLE = "Disney Ukulele Songs"
 
 # Songs folder relative to the repository root
 SONGS = ["Disney/songs_EN/", "Disney/songs_ptBR"]
-CONFIG = "Disney/config.json"
-OUTPUT = "Disney.pdf"
+TARGETS = [
+    {
+        "description": "Ukulele on iPad Mini",
+        "config": "Disney/config.json",
+        "output": "Disney.pdf",
+    },
+]
 
 
 def get_filepath_from_root(relative_path):
-    return os.path.join(os.path.dirname(__file__), "..", relative_path)
+    return os.path.normpath(
+            os.path.join(os.path.dirname(__file__), "..", relative_path)
+        )
 
 
-def get_output():
-    filename = OUTPUT
-    import time
+def get_output(filename):
     timestr = time.strftime("%Y-%m-%d")
-    output = get_filepath_from_root(OUTPUT)
-    return "{0}_{2}.{1}".format(*filename.rsplit('.', 1) + [timestr])
-
-
+    output = get_filepath_from_root(filename)
+    return "{0}_{2}.{1}".format(*output.rsplit('.', 1) + [timestr])
 
 
 def get_all_files():
-    from os import walk
-
     files = []
 
     for songs in SONGS:
         songs_dir = get_filepath_from_root(songs)
 
-        for (dirpath, dirnames, filenames) in walk(songs_dir):
+        for (dirpath, dirnames, filenames) in os.walk(songs_dir):
             files.extend(filename for filename in filenames if filename.endswith(".cho"))
     return files
 
@@ -51,15 +53,25 @@ def main():
     with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8") as tmp:
         tmp.write("\n".join(files))
 
-        output_file = get_output()
+        for target in TARGETS:
+            config = get_filepath_from_root(target["config"])
+            output = get_output(target["output"])
 
-        subprocess.run(
-            ["perl", CHORDPRO,
-             "--config", get_filepath_from_root(CONFIG),
-             "--filelist", tmp.name,
-             "--output", output_file]) 
+            try:
+                result = subprocess.run(
+                    ["perl", CHORDPRO,
+                    "--config", config,
+                    "--filelist", tmp.name,
+                    "--output", output])
 
-    print("Created: " + output_file)
+                if result.returncode == 0:
+                    print("Created: {} ({})".format(output, target["description"]))
+                else:
+                    print("Error: Problem creating {} ({})".format(output, target["description"]))
+
+            except subprocess.CalledProcessError as e:
+                print("Error: Problem creating {} ({})".format(output, target["description"]))
+
 
 
 if __name__ == "__main__":
