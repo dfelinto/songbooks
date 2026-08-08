@@ -43,6 +43,10 @@ chords: [
             0 1 0 1
         ]
     },
+    {name: "D7", base: 1, frets: [
+            2 0 2 0
+        ]
+    },
     {name: "Eb", base: 1, frets: [
             0 3 3 1
         ]
@@ -105,6 +109,12 @@ chords: [
             1 2 1 1
         ], fingers: [
             1 2 1 1
+        ]
+    },
+    {name: "Bbm", base: 1, frets: [
+            3 1 1 1
+        ], fingers: [
+            3 1 1 1
         ]
     },
     {name: "Bbm6", base: 1, frets: [
