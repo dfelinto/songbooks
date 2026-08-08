@@ -57,7 +57,12 @@ markup.shortcodes {
 }
 // Uses custom song metadata field "firstline"
 metadata.strict : false
-
+// Bb → B♭
+settings.truesf : true
+// Gdim → G°
+chord-formats : {
+    common : "%{root|%{}%{qual=dim|°|%{qual}}%{ext|%{}}%{bass|/%{}}|%{name}}"
+}
 
 contents : [
     {
