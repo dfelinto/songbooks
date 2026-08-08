@@ -33,12 +33,36 @@ chords: [
             0 0 1 1
         ]
     },
+    {name: "Cm7", base: 1, frets: [
+            3 3 3 3
+        ], fingers: [
+            1 1 1 1
+        ]
+    },
     {name: "C#dim7", base: 1, frets: [
             0 1 0 1
         ]
     },
+    {name: "Eb", base: 1, frets: [
+            0 3 3 1
+        ]
+    },
     {name: "Em", base: 1, frets: [
             0 4 3 2
+        ]
+    },
+    {name: "Em7b5", base: 1, frets: [
+            0 2 0 1
+        ]
+    },
+    {name: "F7", base: 1, frets: [
+            2 3 1 3
+        ]
+    },
+    {name: "Fm6", base: 1, frets: [
+            1 2 1 3
+        ], fingers: [
+            1 2 1 3
         ]
     },
     {name: "F#7", base: 1, frets: [
@@ -53,12 +77,40 @@ chords: [
             2 1 2 0
         ]
     },
+    {name: "Gdim", base: 1, frets: [
+            0 1 0 2
+        ]
+    },
+    {name: "Gm7", base: 1, frets: [
+            0 2 1 1
+        ], fingers: [
+            0 2 1 1
+        ]
+    },
     {name: "A7sus4", base: 1, frets: [
             0 2 0 0
         ]
     },
     {name: "A#dim7", base: 1, frets: [
             0 1 0 1
+        ]
+    },
+    {name: "Bb", base: 1, frets: [
+            3 2 1 1
+        ], fingers: [
+            3 2 1 1
+        ]
+    },
+    {name: "Bb7", base: 1, frets: [
+            1 2 1 1
+        ], fingers: [
+            1 2 1 1
+        ]
+    },
+    {name: "Bbm6", base: 1, frets: [
+            0 1 1 1
+        ], fingers: [
+            0 1 1 1
         ]
     },
 ]
