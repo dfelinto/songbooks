@@ -5,33 +5,29 @@
 {meta: firstline You've got a friend in me}
 {define: "First note" copy "e"}
 
-{define: D7 base-fret 1 frets 2 0 2 0}
-{define: G7#5 base-fret 1 frets 0 3 1 2}
-{define: F#dim7 base-fret 1 frets 2 3 2 3}
-
 [<hidden>First note</hidden>]
-{:comment Verse 1}
-[C]You've got a [G7#5]friend in [C7]me. [F] You've got a [F#dim7]friend in [C]me.
+{comment: Verse 1}
+[C]You've got a [G7#5]friend in [C7]me. [F] You've got a [F#dim*]friend in [C]me.
 [F] When the [C]road looks [E7] rough a[Am]head
 And you're [F]miles and [C]miles from your [E7]nice warm [Am]bed,
 [F] You just re[C]member what your [E7]old pal [Am]said. Son,
 [D7]You've got a [G7]friend in me [C]. [A7] Yeah, [D7]You've got a [G7]friend in [C]me. [G]
 
-{:comment Verse 2}
-[C]You've got a [G7#5]friend in [C7]me. [F] You've got a [F#dim7]friend in [C]me.
+{comment: Verse 2}
+[C]You've got a [G7#5]friend in [C7]me. [F] You've got a [F#dim*]friend in [C]me.
 [F] You've got [C]troubles, [E7] I got'em [Am]too.
 [F] There isn't [C] anything I [E7]wouldn't [Am]do for you.
 [F] If we stick to[C]gether, we can [E7]see it [Am]through. 'Cause 
 [D7]You've got a [G7]friend in [C]me. [A7] Yeah, [D7]You've got a [G7]friend in [C]me. [G]
 
-{:comment Bridge}
+{comment: Bridge}
 [F] Now, some other folks might be a [B]little bit smarter than I am.
 [C] Bigger and stronger too, maybe.
-[B] But none of them will [Ddim7]ever love you
+[B] But none of them will [Ddim]ever love you
 The [Em]way I [A7]do, just [Dm]me and [G7]you, boy.
-[C] And as the [G7#5]years go [C7]by, our [F]friendship will [F#dim7]never die. [C]
-[F] You're gonna [F#dim7]see it's our [C]des[E7]ti[Am]ny.
+[C] And as the [G7#5]years go [C7]by, our [F]friendship will [F#dim*]never die. [C]
+[F] You're gonna [F#dim*]see it's our [C]des[E7]ti[Am]ny.
 
-{:comment Outro}
+{comment: Outro}
 [D7] You've got a [G7]friend in me. [C] [A7] [D7] You've got a [G7]friend in me. [C] [A7]
 [D7] You've got a [G7] friend in me. [C] [G7] [C]
