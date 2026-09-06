@@ -6,8 +6,6 @@
 {meta: firstline There's a calm surrender}
 {define: "First note" copy "e"}
 
-{define: Em base-fret 1 frets 0 4 3 2}
-
 [<hidden>First note</hidden>]
 [C]There's a calm sur[G]render [C]to the rush of [G]day
 [C]When the heat of the [G]rolling world [Am]can be turned a[D]way
