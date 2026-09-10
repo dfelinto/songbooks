@@ -2,7 +2,7 @@
 {meta: movie Toy Story}
 {artist: Randy Newman}
 {year: 1995}
-{meta: firstline You've got a friend in me}
+{meta: firstline … when the road looks rough ahead}
 {define: "First note" copy "e"}
 
 [<hidden>First note</hidden>]

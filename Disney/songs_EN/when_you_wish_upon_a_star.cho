@@ -3,8 +3,8 @@
 {lyricist: Leigh Hairline}
 {year: 1940}
 {key: C}
-{define: "First note" copy g}
-{meta: firstline (...) Makes no difference who you are}
+{define: "First note" copy "g"}
+{meta: firstline … makes no difference who you are}
 {meta: movie Pinocchio}
 
 [<hidden>First note</hidden>]

@@ -1,12 +1,9 @@
 {title Cruella De Vil}
 {artist: Mel Level}
 {year: 1961}
-{meta: firstline Cruella De Vil, Cruella De Vil}
+{meta: firstline … if she doesn't scare you, no evi thing will}
 {meta: movie 101 Dalmatians}
 {define: "First note" copy "bb"}
-
-{define: F7 base-fret 1 frets 2 3 1 3}
-
 
 [<hidden>First note</hidden>]
 Cru[G]ella De [G7]Vil, Cru[C]ella De [C7]Vil

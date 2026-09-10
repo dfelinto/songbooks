@@ -6,15 +6,6 @@
 {meta: firstline Tale as old as time}
 {define: "First note" copy "a"}
 
-{define: C7sus base-fret 1 frets 0 0 1 1}
-{define: Cadd9 base-fret 1 frets 0 2 0 3}
-{define: Eb base-fret 1 frets 0 3 3 1}
-{define: D7sus base-fret 1 frets 2 2 3 3}
-{define: Em base-fret 1 frets 0 4 3 2}
-{define: Fadd9 base-fret 1 frets 0 0 1 0}
-{define: Gadd9 base-fret 1 frets 2 2 3 2}
-{define: Bbadd9 base-fret 1 frets 3 2 1 3}
-
 [<hidden>First note</hidden>]
 [Fadd9]Tale as old as [C7sus]time, [C7] [Fadd9]true as it can [C7sus]be. [C7]
 [Fadd9]Barely even [Am]friends, then somebody [Bbadd9]bends

@@ -1,12 +1,9 @@
 {title: Part of Your World}
 {artist: Jodi Benson}
 {year: 1989}
-{meta: firstline Maybe he's right}
+{meta: firstline Look at this stuff, isn't it neat?}
 {meta: movie The Little Mermaid}
 {define: "First note" copy "c"}
-
-{define: D7 base-fret 1 frets 2 0 2 0}
-{define: D7sus4 base-fret 1 frets 0 0 2 2}
 
 [<hidden>First note</hidden>][F]Look at this stuff. [G]Isn't it neat?
 [F]Wouldn't you think my col[G]lection's complete?

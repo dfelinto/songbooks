@@ -5,7 +5,7 @@
 {lyricist: David Zippel}
 {year: 1997}
 {key: F}
-{define: "First note" base-fret 1 frets x 0 x x}
+{define: "First note" copy "c"}
 {meta: firstline Há um sonho em mim}
 {meta: movie Hercules}
 

@@ -6,16 +6,12 @@
 {meta: movie Hercules}
 {define: "First note" copy "e"}
 
-{define: F9 base-fret 1 frets 0 0 1 0}
-{define: G4 base-fret 1 frets 0 2 3 3}
-{define: G9 base-fret 1 frets 0 2 3 0}
-
 [<hidden>First note</hidden>]
 {:comment Verse 1}
-[C] If there's a prize for rot[F9]ten judgement
+[C] If there's a prize for rot[Fadd9]ten judgement
 [G] I guess I've already [F]won [G7]that
 [Am] No man is worth the aggra[Dm]vation
-[G] That's ancient history, [G4]been [G]there, [G9]done [G]that
+[G] That's ancient history, [G4]been [G]there, [Gadd9*]done [G]that
 
 {:comment Verse 2}
 [C]Who'd you think you're kidding?
