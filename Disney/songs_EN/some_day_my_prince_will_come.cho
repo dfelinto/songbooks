@@ -1,0 +1,23 @@
+{title: Some Day My Prince Will Come}
+{composer: Frank Churchill}
+{lyricist: Larry Morey}
+{year: 1937}
+{define: "First note" copy "g"}
+{meta: firstline "… some day I'll find my love"}
+{meta: movie Snow White and the Seven Dwarfs}
+{Key: C}
+
+[<hidden>First note</hidden>]
+
+{comment: Verse 1}
+[C]Some [E+]day my [F]prince will [A7]come
+[Dm]Some [F+]day we'll [G7]meet again
+And a[C]way to his [Ebdim]castle I [Dm7]go [G]
+To be [C]happy for[Ebdim]ever I [Dm7]know [G7]
+
+{comment: Verse 2}
+[C]Some [E+]day when [F]spring is [A7]here
+[Dm]We'll [F+]find our [G7]love a new
+And the [C]birds will [C#dim]sing
+and [Dm]wedding bells will [Cdim]ring
+[C] Some day when my [Dm7]dre[G7]ams come [C]true
