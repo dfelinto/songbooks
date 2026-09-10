@@ -21,11 +21,11 @@ TARGETS = [
         "config": "Disney/config.json",
         "output": "Disney.pdf",
     },
-    {
-        "description": "Ukulele on the Web",
-        "config": "Disney/config.json",
-        "output": "Disney.html",
-    },
+    # {
+    #     "description": "Ukulele on the Web",
+    #     "config": "Disney/config.json",
+    #     "output": "Disney.html",
+    # },
 ]
 
 
@@ -128,10 +128,9 @@ def main():
     files = get_all_files()
     files = sort_files(files)
 
-    import tempfile
-    with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8") as tmp:
-        tmp.write("\n".join(files))
-        tmp.flush()
+    with open("disney.cfl", "w", encoding="utf-8") as output_file:
+        output_file.write("\n".join(files))
+        output_file.flush()
 
         for target in TARGETS:
             config = get_filepath_from_root(target["config"])
@@ -141,7 +140,7 @@ def main():
                 result = subprocess.run(
                     ["perl", CHORDPRO,
                     "--config", config,
-                    "--filelist", tmp.name,
+                    "--filelist", output_file.name,
                     "--output", output])
 
                 if result.returncode == 0:
