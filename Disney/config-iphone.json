@@ -1,0 +1,92 @@
+ config {
+    title : "Disney English"
+    description : "Disney Ukulele in English"
+    type : style
+}
+
+ pdf {
+    papersize: "a5"
+    columnspace: 18
+
+    fonts {
+        title    : "Helvetica-Bold 18"
+        subtitle : "Helvetica 11"
+        text     : "Helvetica 15"
+        chord    : "Helvetica-Bold 15"
+        comment  : "Helvetica-Oblique 11"
+        toc      : "Helvetica 13"
+    }
+
+    spacing.lyrics: 1.5
+    diagrams.show: false
+
+    songbook {
+        dual-pages: false
+        align-songs: false
+        align-tocs: false
+    }
+}
+// TODO get a cover
+# pdf.songbook.cover : false
+
+pdf.formats.title.subtitle : [
+    "",
+    "<i>%{subtitle|%{}|%{movie} %{artist|(%{artist}%{lyricist| & %{}|})|}%{year| %{}|}}</i>",
+    ""
+]
+// footer for when the song takes more than 1 page
+pdf.formats.default.footer : [
+    "%{title} %{movie|- <i>%{movie}</i>|}",
+    "",
+    "%{page}"
+]
+
+# For words that break in middle due to chords
+pdf.split-marker : [
+    "-",
+    "",
+    ""
+]
+// special markup: [<hidden>First note</hidden>]
+markup.shortcodes {
+    hidden: "color='white' size='1'"
+}
+// Uses custom song metadata field "firstline"
+metadata.strict : false
+// Bb → B♭
+settings.truesf : true
+// Gdim → G°
+chord-formats : {
+    common : "%{root|%{}%{qual=dim|°|%{qual}}%{ext|%{}}%{bass|/%{}}|%{name}}"
+}
+
+contents : [
+    {
+    fields : [ title
+        ]
+    label : "Musics A-Z"
+        // Left-part
+    line : "%{page}  <b>%{title}</b>  <i>%{firstline}</i>"
+        // Right-part
+    pageno : "<i>%{movie}</i>"
+    omit : false
+    template : stdtoc
+    },
+    {
+    fields : [ movie title
+        ]
+    break: "\\n<u>%{movie}</u>"
+    label : "Musics by Movie"
+        // Left-part
+    line : "    <b>%{title}</b>  <i>%{firstline}</i>"
+        // Right-part
+    pageno : "<i>%{page}</i>"
+    omit : false
+    template : stdtoc
+    }
+]
+
+include : [
+    ukulele,
+    chords_ukulele.json
+]
