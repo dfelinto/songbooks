@@ -25,7 +25,6 @@ TARGETS = [
         "description": "Ukulele on iPhone",
         "config": "Disney/config-iphone.json",
         "output": "Disney-phone.pdf",
-        "lyrics-only": True,
     },
     # {
     #     "description": "Ukulele on the Web",
@@ -143,14 +142,12 @@ def main():
             output = get_output(target["output"])
 
             try:
-                args = ["perl",
-                        CHORDPRO,
-                        "--config", config,
-                        "--filelist", output_file.name,
-                        "--output", output]
-                if target.get("lyrics-only"):
-                    args.append("--lyrics-only")
-                result = subprocess.run(args)
+                result = subprocess.run(
+                    ["perl",
+                     CHORDPRO,
+                     "--config", config,
+                     "--filelist", output_file.name,
+                     "--output", output])
 
                 if result.returncode == 0:
                     print("Created: {} ({})".format(output, target["description"]))

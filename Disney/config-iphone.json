@@ -26,6 +26,10 @@
         align-tocs: false
     }
 }
+
+settings {
+    lyrics-only: true
+}
 // TODO get a cover
 # pdf.songbook.cover : false
 
