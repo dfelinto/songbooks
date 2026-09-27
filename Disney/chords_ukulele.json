@@ -13,7 +13,7 @@ chords: [
         ]
     },
     {name: "g", base: 1, frets: [
-            x x 3 x
+            0 x x x
         ]
     },
     {name: "a", base: 1, frets: [
