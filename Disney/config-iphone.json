@@ -30,6 +30,9 @@
 settings {
     lyrics-only: true
 }
+
+instrument.type: voice
+
 // TODO get a cover
 # pdf.songbook.cover : false
 
