@@ -2,6 +2,7 @@
 
 import os
 import re
+import shutil
 import subprocess
 import time
 
@@ -9,6 +10,7 @@ import time
 
 # Where chordpro is in your system (if in doubt run `which chordpro`)
 CHORDPRO = "/Users/dfelinto/src/tools/chordpro/script/chordpro"
+ICLOUD = "/Users/dfelinto/Library/Mobile Documents/com~apple~CloudDocs/Musicas"
 
 TITLE = "Ukulella"
 SUBTITLE = "Disney Ukulele Songs"
@@ -156,6 +158,10 @@ def main():
 
             except subprocess.CalledProcessError as e:
                 print("Error: Problem creating {} ({})".format(output, target["description"]))
+
+            finally:
+                # copy to iCloud
+                shutil.copy(output, os.path.join(ICLOUD, target["output"]))
 
 
 if __name__ == "__main__":
